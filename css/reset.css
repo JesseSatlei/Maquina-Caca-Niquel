@@ -1,0 +1,17 @@
+body {
+  background-color: #c9c9c9;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #737373;
+}

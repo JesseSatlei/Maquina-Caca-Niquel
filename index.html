@@ -1,29 +1,25 @@
 <!DOCTYPE html5>
 <html>
 	<head>
-		
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta charset="utf-8"/>
 		<title>Caça Niquel</title>
-		<link type="text/css" rel="stylesheet" href="style.css" />
-		<script src="js/main.js"></script>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link type="text/css" rel="stylesheet" href="./css/all.css"/>
 	</head>
 	<body>
-		<div id = "tela">
-			<div id = "slot1">
-				<img id = "escud1" src = "img/bota1.webp" width="90px" height="90px" />
+		<div id = "tela" class="container">
+			<div id = "slot1" class="slot1">
+				<img id = "escud1" src = "img/bota1.webp" width="90px" height="90px"/>
 			</div>
-			<div id = "slot2">
-				<img id = "escud2" src = "img/bota2.webp" width="90px" height="90px"  />
+			<div id = "slot2" class="slot2">
+				<img id = "escud2" src = "img/bota2.webp" width="90px" height="90px"/>
 			</div>
-			<div id = "slot3">
-				<img id = "escud3" src = "img/bota3.webp" width="90px" height="90px"  />
+			<div id = "slot3" class="slot3">
+				<img id = "escud3" src = "img/bota3.webp" width="90px" height="90px"/>
 			</div>
 		</div>
 		<div id = "botoes" class = "alert alert-sucess" role="alert">
 			<img src = "img/jogar.gif" onMouseDown="this.src='img/jogar_p.gif';" onMouseUp="this.src='img/jogar.gif';" onclick = "jogar();"/>
 		</div>
+		<script src="js/main.js"></script>
 	</body>
-
 </html>

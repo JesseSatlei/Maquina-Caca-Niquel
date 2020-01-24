@@ -31,15 +31,15 @@ function jogar() {
 		nSort = aleatorio(1,4);
 		switch (nSort) {
 			case 1:
-			cont = setTimeout("document.getElementById('escud1').src = 'img/bota1.webp'", 4000);
+			cont = setTimeout("document.getElementById('escud1').src = 'img/bota1.webp'", 3000);
 			slt1 = 1;
 			break;
 			case 2:
-			cont = setTimeout("document.getElementById('escud1').src = 'img/bota2.webp'", 4000);
+			cont = setTimeout("document.getElementById('escud1').src = 'img/bota2.webp'", 3000);
 			slt1 = 2;
 			break;
 			case 3:
-			cont = setTimeout("document.getElementById('escud1').src = 'img/bota3.webp'", 4000);
+			cont = setTimeout("document.getElementById('escud1').src = 'img/bota3.webp'", 3000);
 			slt1 = 3;
 			break;
 		}

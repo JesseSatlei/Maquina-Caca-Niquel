@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.slot1 img, .slot2 img, .slot3 img{
+    width: 180px;
+    height: 180px;
+    margin: 1px;
+    border: 1px solid #000;
+}
+
